@@ -6,12 +6,26 @@
 }
 
 body {
-    margin: 0 auto;
-    max-width: 50em;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
-    padding: 4em 1em;
     color: rgb(58, 57, 57);
+    margin: 0;
+}
+
+#super-cool-jessica {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#bg {
+    display: flex;
+}
+
+main {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 4em 1em;
 }
 
 h1,
